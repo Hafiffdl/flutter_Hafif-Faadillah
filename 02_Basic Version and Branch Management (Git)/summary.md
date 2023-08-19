@@ -6,4 +6,4 @@
 
 3. Workflow Collaboration dimana di git dapat membuat beberapa branch seperti master, development, featureA, featureB fungsi dalam branch tersebut untuk developer melakukan collaboration tidak hanya di satu branch saja melainkan dengan beberapa branch seperti itu dan fungsi ini memudahkan developer untuk mengembangkan software bersama-sama tanpa harus mengerjakan di satu branch saja.
 
-Untuk commit merge, push, dan pull ada pada branch developer dan untuk branch main hanya untuk pengumpulan tugas
+Note : Untuk commit merge, push, dan pull ada pada branch developer dan untuk branch main hanya untuk pengumpulan tugas
