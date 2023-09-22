@@ -20,4 +20,4 @@ Mengirim Data ke halaman baru
 - Tambahkan initialRoute dan routes pada MaterialApp dengan simbol '/'
 - Tiap route adalah fungsi yg membentuk halaman
 
-Contoh perpindahan halaman Navigator.of(context).pushNamed('/secondpage')
+Contoh seperti perpindahan halaman Navigator.of(context).pushNamed('/secondpage')
