@@ -122,14 +122,14 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: Text('Contact', style: GoogleFonts.poppins(fontSize: 20),),
               onTap: () {
-                Navigator.pop(context); // Menutup drawer
+                Navigator.pop(context); 
                 Navigator.pushNamed(context, '/contact'); // Navigasi ke halaman Contact
               },
             ),
             ListTile(
               title: Text('Galeri', style: GoogleFonts.poppins(fontSize: 20),),
               onTap: () {
-                Navigator.pop(context); // Menutup drawer
+                Navigator.pop(context); 
                 Navigator.pushNamed(context, '/galeri'); // Navigasi ke halaman Galeri
               },
             ),

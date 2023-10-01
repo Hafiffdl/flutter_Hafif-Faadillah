@@ -378,7 +378,6 @@ class _ContactPageState extends State<ContactPage> {
       builder: (BuildContext context) {
         String editedName = contactProvider.dataList[index].nama ?? "";
         String editedNomor = contactProvider.dataList[index].nomor ?? "";
-
         return AlertDialog(
           title: const Text("Edit Contact"),
           content: Column(
@@ -409,7 +408,7 @@ class _ContactPageState extends State<ContactPage> {
             ),
             TextButton(
               onPressed: () {
-                // Simpan perubahan menggunakan Provider
+                // simpan perubahan menggunakan Provider
                 contactProvider.editData(index, Data(
                   nama: editedName,
                   nomor: editedNomor,
